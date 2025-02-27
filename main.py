@@ -1,6 +1,5 @@
 def karatsuba(x, y):
 
-
     if x < 10 or y < 10: # multiplicação normal caso os números sejam pequenos
         return x * y
 
