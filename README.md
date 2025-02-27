@@ -90,8 +90,11 @@ O fluxo de controle da função `karatsuba(x, y)` pode ser representado como um 
 **Cálculo da Complexidade Ciclomática (M)**:  Onde:
 
 * `E = 8` (arestas) -> transição entre cada nó (atribuições nulas/vazias não são arestas)
-* `N = 10` (nós) -> cada instrução é um nó
+* `N = 7` (nós) -> cada instrução é um nó
 * `P = 1` (componente conexo único)
+
+  Fórmula: **M** = **8** − **7** + **2**(**1**) = 3
+* **3** caminhos possíveis
 
 ### Análise da Complexidade Assintótica
 
